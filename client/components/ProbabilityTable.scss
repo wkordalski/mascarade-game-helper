@@ -1,0 +1,25 @@
+.probabilities {
+    &__table {
+        border: 1px gray solid;
+    }
+    
+    &__header_cell {
+        text-align: center;
+        padding-left: 4px;
+        padding-right: 4px;
+        border-left: 1px gray solid;
+        border-bottom: 1px gray solid;
+    }
+
+    &__user_name_cell {
+        text-align: right;
+        padding-right: 8px;
+        width: 90px;
+    }
+
+    &__probability_cell {
+        text-align: center;
+        border-left: 1px gray solid;
+        width: 80px;
+    }
+}
