@@ -1,2 +1,3 @@
-# masquerade-game-helper
+# Mascarade game helper
+
 Probability calculator for Masquerade game.

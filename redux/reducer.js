@@ -113,9 +113,7 @@ class State extends StateRecord {
 }
 
 //initiate your starting state
-const initial = new State().addPlayer("Wojtek", roles.PEASANT).addPlayer("Asia", roles.PEASANT)
-                           .branch([1, 2], 0.4).addPlayer("Przemek", roles.BISHOP)
-                           .branch([1, 3], 0.4).branch([1, 2], 0.5).cut(3, roles.PEASANT).cut(1, roles.PEASANT)
+const initial = new State()
 
 const reducer = (state = initial, action) => {
   switch (action.type) {
